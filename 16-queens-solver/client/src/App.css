@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+
+div.grid {
+  display: grid;
+  grid-template-columns: repeat(16, 30px);
+}
+
+div.grid div {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+div.grid div.black {
+  background-color: black;
+}
+
